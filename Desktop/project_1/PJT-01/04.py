@@ -83,7 +83,7 @@ fruit_dict = {}
 with open('./data/fruits.txt', 'r') as f:
     fruits = f.readlines
     for fruit in fruits:
-        fruit = fruits.strip() # 공백제거
+        fruit = fruit.strip() # 공백제거
 
         if fruit not in fruit_dict:
             fruit_dict[fruit] = 1
